@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+}
+.container{ 
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+}
+.container form {
+    width: 400px;
+    padding: 20px 24px;
+    border-radius: 8px;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+form input, form button {
+    padding: 8px 10px;
+    border-radius: 8px;
+    font-size: 16px;
+    border: 2px solid blue;
+    color: blue;
+}
+form a{
+    text-decoration: none;
+    color: royalblue;
+}
