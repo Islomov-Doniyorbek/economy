@@ -34,7 +34,7 @@ const App = () => {
             }
           />
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter>   
     </AuthProvider>
   );
 };
